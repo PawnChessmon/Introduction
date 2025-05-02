@@ -1,6 +1,7 @@
 # Introduction
 
 👋 Hi, I'm Ritupam Sarma
+
 Bioinformatician | Spatial Transcriptomics Researcher | Teaching Assistant
 📍 Glasgow, UK | 🌈 LGBT+ in STEM | 🧬 Passionate about computational biology in cancer research and infectious diseases.
 
