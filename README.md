@@ -2,7 +2,7 @@
 
 Hi, I'm Ritupam
 
-Bioinformatician | Spatial Transcriptomics Researcher | Teaching Assistant
+Bioinformatician | Spatial Transcriptomics Researcher |
 📍 Glasgow, UK | 🌈 LGBT+ in STEM | 🧬 Passionate about computational biology in cancer research and infectious diseases.
 
 I’m a bioinformatician with a strong foundation in R, Python, and UNIX/Linux systems, and a deep interest in solving complex biological problems through data. I currently work as a demonstrator at the University of Glasgow, where I support MSc and PhD students in developing key skills in computational biology, omics analysis, and statistical modelling.
