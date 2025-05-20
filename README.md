@@ -38,7 +38,7 @@ I am a **bioinformatician** with expertise in **R, Python, and large-scale biolo
 **MSc Bioinformatics** | Project Grade: Merit
 
 * **MSc Project: Clustering and expression of multi-gene families in *Plasmodium falciparum***
-    * Focused on variant surface antigens (VSAs), specifically rifin and stevor gene superfamilies.
+    * Focused on variant surface antigens (VSAs), specifically *rifin* and *stevor* gene superfamilies.
     * Employed network mapping and integrated data from various parasite life cycle stages to identify subgroups and analyze their roles in host immunity and malaria pathogenesis.
     * **Bioinformatic Resources:** BLASTn, Gephi, Python, R.
 
