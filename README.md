@@ -63,6 +63,6 @@ I am a **bioinformatician** with expertise in **R, Python, and large-scale biolo
 **BSc (Core: Zoology)** | Grade: 83.36%
 
 Strong foundation in
-* animal biology, systematics, and diversity.
+* Animal biology, systematics, and diversity.
 * Cell biology, genetics, molecular biology, microbiology, and biotechnology.
 * Physiology, endocrinology, developmental biology, immunology, biochemistry, and bioinstrumentation.
