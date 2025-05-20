@@ -3,13 +3,13 @@ Bioinformatician & Graduate Teaching Assistant | University of Glasgow
 
 **Email:** ritupam.sarma@icloud.com | **[LinkedIn Profile](www.linkedin.com/in/ritupam-sarma-44189b277)**
 
----
+
 
 ## PROFILE
 
 I am a **bioinformatician** with expertise in **R, Python, and large-scale biological data analysis**, specializing in **bioinformatics pipeline development, spatial transcriptomics, and automation of data submissions**. As a **Demonstrator** at the University of Glasgow, I support MSc and PhD students in mastering computational biology techniques. My research spans statistical modeling, network mapping, and data visualization, enabling meaningful biological insights. Passionate about integrating computational approaches with biomedical research, I thrive in interdisciplinary environments and collaborative problem-solving.
 
----
+
 
 ## SKILLS SUMMARY
 
@@ -18,7 +18,7 @@ I am a **bioinformatician** with expertise in **R, Python, and large-scale biolo
 * **Genomic Analysis:** GWAS, WGS, RNA-seq, BLASTn, VEP, IGV.
 * **Soft Skills:** Collaboration, Problem-Solving, Adaptability, Time-Management, Strategic Planning, Effective Communication, Research Presentation.
 
----
+
 
 ## ONGOING PROJECTS
 
@@ -30,7 +30,7 @@ I am a **bioinformatician** with expertise in **R, Python, and large-scale biolo
 
 * Developing a **command-line tool for streamlined data uploads** to the European Nucleotide Archive (ENA), assisting PIs with metadata handling and large dataset submissions to improve efficiency in Shared Research Facilities.
 
----
+
 
 ## EDUCATION
 
@@ -42,7 +42,7 @@ I am a **bioinformatician** with expertise in **R, Python, and large-scale biolo
     * Employed network mapping and integrated data from various parasite life cycle stages to identify subgroups and analyze their roles in host immunity and malaria pathogenesis.
     * **Bioinformatic Resources:** BLASTn, Gephi, Python, R.
 
----
+
 
 ## RELEVANT MODULES & EXPERTISE
 
@@ -57,7 +57,7 @@ I am a **bioinformatician** with expertise in **R, Python, and large-scale biolo
 * **Genomic Data Analysis:** Filtered VCF, GFF, and FASTA files, classified coding region variants, and documented workflows.
 * **Molecular Visualization:** Visualized protein-DNA/RNA interactions using PyMOL and created annotated molecular videos.
 
----
+
 
 **Cotton University, GUWAHATI, INDIA** | 2018 - 2021
 **BSc (Core: Zoology)** | Grade: 83.36%
