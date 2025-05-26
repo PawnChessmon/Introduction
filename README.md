@@ -66,3 +66,11 @@ Strong foundation in
 * Animal biology, systematics, and diversity.
 * Cell biology, genetics, molecular biology, microbiology, and biotechnology.
 * Physiology, endocrinology, developmental biology, immunology, biochemistry, and bioinstrumentation.
+
+
+
+## PROFESSIONAL DEVELOPMENT / CERTIFICATIONS
+* **Unsupervised Learning in Python** - DataCamp - 05/2025
+* **Unsupervised Learning in R** - DataCamp - 05/2025
+* **Understanding Machine Learning** - DataCamp - 05/2025
+* **Introduction to the Tidyverse** - DataCamp - 10/2024
