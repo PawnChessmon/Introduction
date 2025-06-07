@@ -11,12 +11,51 @@ I am a **bioinformatician** with expertise in **R, Python, and large-scale biolo
 
 
 
-## SKILLS SUMMARY
+## SKILLS & TECHNICAL EXPERTISE
 
-* **Programming & Data Analysis:** R, Python, SQL, UNIX/Linux.
-* **Bioinformatics Tools:** Seurat, PyMOL, MetaboAnalyst, Tuxedo.
-* **Genomic Analysis:** GWAS, WGS, RNA-seq, BLASTn, VEP, IGV.
-* **Soft Skills:** Collaboration, Problem-Solving, Adaptability, Time-Management, Strategic Planning, Effective Communication, Research Presentation.
+### PROGRAMMING & WORKFLOW DEVELOPMENT
+
+* **Languages:** R, Python, Bash, SQL, UNIX/Linux.
+
+* **Workflow Automation:** Automated pipelines for RNA-seq, GWAS, and WGS on **HPC clusters** using job schedulers (qsub) and environment setup scripts.
+
+* **Database Management:** Designed bioinformatics databases using **SQLite**, automated CSV/TSV processing, and performed biological data extraction with **SQL**.
+
+### STATISTICAL ANALYSIS & MACHINE LEARNING
+
+* **Tools:** DESeq2, scikit-learn, SciPy, linear models, hypothesis testing, enrichment analysis.
+
+* Applied statistical models in R and Python for **differential expression**, **variant enrichment**, and **GWAS interpretation**.
+
+* Recent training in **PyTorch**, **TensorFlow**, and unsupervised learning.
+
+### GENOMIC & TRANSCRIPTOMIC ANALYSIS
+
+* **Techniques:** RNA-seq (bulk & single-cell), WGS, GWAS, variant annotation.
+
+* **Tools:** PLINK, VEP, SIFT, PolyPhen-2, IGV, Seurat.
+
+* Experience includes **variant filtering** (VCF, GFF, FASTA), **BRCA1** variant analysis, SNP-level QC, Hardy-Weinberg tests, and Manhattan/QQ plots in R.
+
+### NGS & MULTI-OMICS PLATFORMS
+
+* **Microbial genomics:** Analyzed *E. coli* O157:H7 genomes for quality control, error correction, and downstream assembly.
+
+* **Spatial & single-cell transcriptomics:** Analyzed 10x Visium data, applied Seurat for clustering, integration, and biomarker identification.
+
+* **Multi-omics integration in Leishmania:** Combined WGS, metabolomics, and **protein modeling** to study drug resistance.
+
+### DATA VISUALISATION & REPORTING
+
+* **Visualisation tools:** ggplot2, Matplotlib, Seaborn, PCA, volcano plots, heatmaps, expression maps.
+
+* Communicated insights from spatial, multi-omic, and single-cell studies with customized plots and visual summaries.
+
+### MOLECULAR VISUALISATION & BIOINFORMATICS TOOLS
+
+* **PyMOL** for 3D molecular interactions and educational visuals.
+
+* Familiar with **MetaboAnalyst**, **SnpEff**, **freebayes**, **vcffilter**, and **Galaxy platform**.
 
 
 
@@ -43,22 +82,6 @@ I am a **bioinformatician** with expertise in **R, Python, and large-scale biolo
     * **Bioinformatic Resources:** BLASTn, Gephi, Python, R.
 
 
-
-## RELEVANT MODULES & EXPERTISE
-
-* **Polyomics Approach to Drug Resistance:** Investigated Amphotericin B resistance mechanisms in *Leishmania* using WGS, genomics, metabolomics, and protein modeling. (IGV, MetaboAnalyst, SnpEff, SnpSift, freebayes, vcffilter)
-* **Next Generation Sequencing (NGS):** Expertise in quality control, error correction, and data interpretation for microbial genomes (e.g., *E. coli O157:H7*), familiar with Galaxy and Antioch.
-* **Bulk RNA-Seq & HPC:** Pre-processing Illumina reads, adapter removal, quality trimming, HPC job submission (`qsub`), and differential gene expression analysis with DESeq2 in R.
-* **Genomic Studies:** Conducted GWAS using PLINK on HPC, analyzed SNP loci, visualized results in R, and assessed BRCA1 variants with VEP, PolyPhen-2, and SIFT.
-* **UNIX/Linux for Bioinformatics:** Automated workflows, managed files and resources, and built scalable workflows for genomic data.
-* **Statistical Analysis:** Applied hypothesis testing and linear models, evaluated results in a biological context, and processed large datasets.
-* **Data Visualization:** Pre-processed RNA-seq data and created PCA, volcano, heatmaps, and expression plots.
-* **Database Design & Programming:** Designed SQLite schemas, automated CSV/TSV processing with Python, extracted insights with SQL, and used Matplotlib.
-* **Genomic Data Analysis:** Filtered VCF, GFF, and FASTA files, classified coding region variants, and documented workflows.
-* **Molecular Visualization:** Visualized protein-DNA/RNA interactions using PyMOL and created annotated molecular videos.
-
-
-
 **Cotton University, GUWAHATI, INDIA** | 2018 - 2021
 **BSc (Core: Zoology)** | Grade: 83.36%
 
@@ -70,6 +93,8 @@ Strong foundation in
 
 
 ## PROFESSIONAL DEVELOPMENT / CERTIFICATIONS
+* **Introduction to TensorFlow in Python** – DataCamp - 06/2025
+* **Introduction to Deep Learning with PyTorch** – DataCamp - 06/2025
 * **Unsupervised Learning in Python** - DataCamp - 05/2025
 * **Unsupervised Learning in R** - DataCamp - 05/2025
 * **Understanding Machine Learning** - DataCamp - 05/2025
