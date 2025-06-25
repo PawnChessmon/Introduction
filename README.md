@@ -64,6 +64,7 @@ I am a **bioinformatician** with expertise in **R, Python, and large-scale biolo
 ### Spatial Transcriptomics
 
 * Utilizing 10x Visium and the Seurat R package for **lung cancer research**, investigating stress correlations with cancer progression and analyzing pre-metastasis colorectal lung cancer. Collaborating with leading institutions.
+* https://doi.org/10.1158/1538-7445.AM2025-4586
 
 ### Automating ENA Submissions
 
@@ -99,3 +100,9 @@ Strong foundation in
 * **Unsupervised Learning in R** - DataCamp - 05/2025
 * **Understanding Machine Learning** - DataCamp - 05/2025
 * **Introduction to the Tidyverse** - DataCamp - 10/2024
+
+
+
+## PUBLICATION
+Colin Wood, Luke McNickle, Andrew Cameron, **Ritupam Sarma**, Vaidehi Pandya, Joao Da Silva Filho, Colin Steele, John Cole, Joanne Edwards, Paul Horgan, Campbell Roxburgh. Multi-scale multi-omic assessment of matched synchronous colorectal cancer liver metastases using multiple spatial transcriptomic tools [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2025; Part 1 (Regular Abstracts); 2025 Apr 25-30; Chicago, IL. Philadelphia (PA): AACR; Cancer Res 2025;85(8_Suppl_1):Abstract nr 4586. 
+https://doi.org/10.1158/1538-7445.AM2025-4586
