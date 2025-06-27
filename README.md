@@ -1,108 +1,107 @@
-# RITUPAM SARMA
-Bioinformatician & Graduate Teaching Assistant | University of Glasgow
+# Ritupam Sarma  
+**Bioinformatician & Graduate Teaching Assistant | University of Glasgow**  
+📧 ritupam.sarma@icloud.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/ritupam-sarma-44189b277)  
 
-**Email:** ritupam.sarma@icloud.com | **[LinkedIn Profile](www.linkedin.com/in/ritupam-sarma-44189b277)**
+---
 
+## 🧬 Profile  
 
+I'm a **bioinformatician** with a classical biology background and strong focus on computational biology. My expertise spans **R, Python**, and **high-throughput data analysis**, with special interest in **spatial transcriptomics**, **multi-omics integration**, and **bioinformatics pipeline automation**.
 
-## PROFILE
+Currently, I work as a **Demonstrator at the University of Glasgow**, supporting MSc and PhD students with bioinformatics workflows, omics analysis, and statistical modelling. My research contributes to cancer genomics, microbial genomics, and data infrastructure for high-throughput submissions (e.g., ENA).  
 
-I am a **bioinformatician** with expertise in **R, Python, and large-scale biological data analysis**, specializing in **bioinformatics pipeline development, spatial transcriptomics, and automation of data submissions**. As a **Demonstrator** at the University of Glasgow, I support MSc and PhD students in mastering computational biology techniques. My research spans statistical modeling, network mapping, and data visualization, enabling meaningful biological insights. Passionate about integrating computational approaches with biomedical research, I thrive in interdisciplinary environments and collaborative problem-solving.
+I’m passionate about inclusive, interdisciplinary science and thrive in collaborative environments where computational methods solve real biological problems.
 
+---
 
+## 🔧 Technical Skills
 
-## SKILLS & TECHNICAL EXPERTISE
+### Programming & Workflow Development  
+- **Languages**: R, Python, Bash, SQL  
+- **Workflow Automation**: RNA-seq, GWAS, WGS, HPC clusters (qsub)  
+- **Database**: SQLite, custom data extraction via SQL  
 
-### PROGRAMMING & WORKFLOW DEVELOPMENT
+### Statistical Analysis & Machine Learning  
+- **Tools**: DESeq2, scikit-learn, SciPy, enrichment analysis, linear modelling  
+- **Applications**: Differential expression, variant enrichment, GWAS interpretation  
+- **Training**: PyTorch, TensorFlow, unsupervised learning  
 
-* **Languages:** R, Python, Bash, SQL, UNIX/Linux.
+### Genomic & Transcriptomic Analysis  
+- RNA-seq (bulk & single-cell), WGS, GWAS, variant annotation  
+- Tools: PLINK, VEP, PolyPhen-2, SIFT, IGV, Seurat  
 
-* **Workflow Automation:** Automated pipelines for RNA-seq, GWAS, and WGS on **HPC clusters** using job schedulers (qsub) and environment setup scripts.
+### NGS & Multi-Omics  
+- *E. coli* genome assembly & QC  
+- 10x Visium spatial transcriptomics workflows  
+- Integrated WGS, metabolomics, and protein modelling in *Leishmania*  
 
-* **Database Management:** Designed bioinformatics databases using **SQLite**, automated CSV/TSV processing, and performed biological data extraction with **SQL**.
+### Visualisation & Reporting  
+- Tools: ggplot2, Matplotlib, Seaborn  
+- Outputs: PCA, heatmaps, volcano plots, spatial maps  
 
-### STATISTICAL ANALYSIS & MACHINE LEARNING
+### Molecular Visualisation  
+- PyMOL for protein-ligand interaction and educational graphics  
+- Familiar with MetaboAnalyst, SnpEff, freebayes, vcffilter, Galaxy platform  
 
-* **Tools:** DESeq2, scikit-learn, SciPy, linear models, hypothesis testing, enrichment analysis.
+---
 
-* Applied statistical models in R and Python for **differential expression**, **variant enrichment**, and **GWAS interpretation**.
+## 🚧 Ongoing Projects
 
-* Recent training in **PyTorch**, **TensorFlow**, and unsupervised learning.
+### 🔬 Spatial Transcriptomics in Colorectal & Lung Cancer  
+- Using 10x Visium and Seurat to study tumour microenvironments and metastatic stress responses  
+- Collaborating with clinicians and academic partners  
+- 📄 [AACR Abstract (2025)](https://doi.org/10.1158/1538-7445.AM2025-4586)
 
-### GENOMIC & TRANSCRIPTOMIC ANALYSIS
+### 📤 ENA Submission Automation  
+- Command-line tool for automated data upload to the European Nucleotide Archive (ENA)  
+- Features: metadata checks, email notifications, and QC logging  
 
-* **Techniques:** RNA-seq (bulk & single-cell), WGS, GWAS, variant annotation.
+---
 
-* **Tools:** PLINK, VEP, SIFT, PolyPhen-2, IGV, Seurat.
+## 🎓 Education
 
-* Experience includes **variant filtering** (VCF, GFF, FASTA), **BRCA1** variant analysis, SNP-level QC, Hardy-Weinberg tests, and Manhattan/QQ plots in R.
+**MSc Bioinformatics**  
+*University of Glasgow, UK (2022–2023)* – *Merit*  
+- Thesis: *Plasmodium falciparum* multigene families (*rifin*, *stevor*), network analysis and expression profiling
 
-### NGS & MULTI-OMICS PLATFORMS
+**BSc Zoology**  
+*Cotton University, India (2018–2021)* – *83.36%*  
+- Focus: molecular biology, biochemistry, genetics, immunology
 
-* **Microbial genomics:** Analyzed *E. coli* O157:H7 genomes for quality control, error correction, and downstream assembly.
+---
 
-* **Spatial & single-cell transcriptomics:** Analyzed 10x Visium data, applied Seurat for clustering, integration, and biomarker identification.
+## 🛠 Certifications
 
-* **Multi-omics integration in Leishmania:** Combined WGS, metabolomics, and **protein modeling** to study drug resistance.
+- Introduction to TensorFlow in Python – *DataCamp, 06/2025*  
+- Deep Learning with PyTorch – *DataCamp, 06/2025*  
+- Unsupervised Learning (Python & R) – *DataCamp, 05/2025*  
+- Understanding Machine Learning – *DataCamp, 05/2025*  
+- Introduction to the Tidyverse – *DataCamp, 10/2024*
 
-### DATA VISUALISATION & REPORTING
+---
 
-* **Visualisation tools:** ggplot2, Matplotlib, Seaborn, PCA, volcano plots, heatmaps, expression maps.
+## 📄 Publication
 
-* Communicated insights from spatial, multi-omic, and single-cell studies with customized plots and visual summaries.
+**Multi-scale multi-omic assessment of matched synchronous colorectal cancer liver metastases using multiple spatial transcriptomic tools**  
+Colin Wood et al. including *Ritupam Sarma*,
+**AACR Annual Meeting 2025**, Abstract #4586  
+🔗 [DOI] https://doi.org/10.1158/1538-7445.AM2025-4586
 
-### MOLECULAR VISUALISATION & BIOINFORMATICS TOOLS
+---
 
-* **PyMOL** for 3D molecular interactions and educational visuals.
+## 🌐 Values & Inclusion
 
-* Familiar with **MetaboAnalyst**, **SnpEff**, **freebayes**, **vcffilter**, and **Galaxy platform**.
+As an **LGBT+ and Indian** scientist, I value diversity, global equity in research, and accessibility in bioinformatics. I advocate for open science and inclusive collaboration across disciplines.
 
+---
 
+## 📁 Featured Repositories (coming soon)
 
-## ONGOING PROJECTS
+- `ena-submission-cli` – Command-line tool for ENA submissions with built-in validation and QC  
+- `visium-CRC-lung` – Spatial transcriptomics analysis pipeline for colorectal cancer and lung metastasis samples  
+- `plasmodium-multigene-analysis` – Network-based gene family clustering in *Plasmodium falciparum*  
 
-### Spatial Transcriptomics
+---
 
-* Utilizing 10x Visium and the Seurat R package for **lung cancer research**, investigating stress correlations with cancer progression and analyzing pre-metastasis colorectal lung cancer. Collaborating with leading institutions.
-* https://doi.org/10.1158/1538-7445.AM2025-4586
-
-### Automating ENA Submissions
-
-* Developing a **command-line tool for streamlined data uploads** to the European Nucleotide Archive (ENA), assisting PIs with metadata handling and large dataset submissions to improve efficiency in Shared Research Facilities.
-
-
-
-## EDUCATION
-
-**University of Glasgow, UK** | 09/2022 - 10/2023
-**MSc Bioinformatics** | Project Grade: Merit
-
-* **MSc Project: Clustering and expression of multi-gene families in *Plasmodium falciparum***
-    * Focused on variant surface antigens (VSAs), specifically *rifin* and *stevor* gene superfamilies.
-    * Employed network mapping and integrated data from various parasite life cycle stages to identify subgroups and analyze their roles in host immunity and malaria pathogenesis.
-    * **Bioinformatic Resources:** BLASTn, Gephi, Python, R.
-
-
-**Cotton University, GUWAHATI, INDIA** | 2018 - 2021
-**BSc (Core: Zoology)** | Grade: 83.36%
-
-Strong foundation in
-* Animal biology, systematics, and diversity.
-* Cell biology, genetics, molecular biology, microbiology, and biotechnology.
-* Physiology, endocrinology, developmental biology, immunology, biochemistry, and bioinstrumentation.
-
-
-
-## PROFESSIONAL DEVELOPMENT / CERTIFICATIONS
-* **Introduction to TensorFlow in Python** – DataCamp - 06/2025
-* **Introduction to Deep Learning with PyTorch** – DataCamp - 06/2025
-* **Unsupervised Learning in Python** - DataCamp - 05/2025
-* **Unsupervised Learning in R** - DataCamp - 05/2025
-* **Understanding Machine Learning** - DataCamp - 05/2025
-* **Introduction to the Tidyverse** - DataCamp - 10/2024
-
-
-
-## PUBLICATION
-Colin Wood, Luke McNickle, Andrew Cameron, **Ritupam Sarma**, Vaidehi Pandya, Joao Da Silva Filho, Colin Steele, John Cole, Joanne Edwards, Paul Horgan, Campbell Roxburgh. Multi-scale multi-omic assessment of matched synchronous colorectal cancer liver metastases using multiple spatial transcriptomic tools [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2025; Part 1 (Regular Abstracts); 2025 Apr 25-30; Chicago, IL. Philadelphia (PA): AACR; Cancer Res 2025;85(8_Suppl_1):Abstract nr 4586. 
-https://doi.org/10.1158/1538-7445.AM2025-4586
+*Let’s collaborate on data-driven biology, machine learning for genomics, and translational bioinformatics!* 🚀
