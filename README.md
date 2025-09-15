@@ -3,7 +3,7 @@
 📧 ritupam.sarma@icloud.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/ritupam-sarma-44189b277)  
 
----
+
 
 ## 🧬 Profile  
 
@@ -13,7 +13,7 @@ Currently, I work as a **Demonstrator at the University of Glasgow**, supporting
 
 I’m passionate about inclusive, interdisciplinary science and thrive in collaborative environments where computational methods solve real biological problems.
 
----
+
 
 ## 🔧 Technical Skills
 
@@ -44,7 +44,7 @@ I’m passionate about inclusive, interdisciplinary science and thrive in collab
 - PyMOL for protein-ligand interaction and educational graphics  
 - Familiar with MetaboAnalyst, SnpEff, freebayes, vcffilter, Galaxy platform  
 
----
+
 
 ## 🚧 Ongoing Projects
 
@@ -57,7 +57,16 @@ I’m passionate about inclusive, interdisciplinary science and thrive in collab
 - Command-line tool for automated data upload to the European Nucleotide Archive (ENA)  
 - Features: metadata checks, email notifications, and QC logging  
 
----
+
+## 🌍 Independent Projects (Web Apps)
+### DNA/RNA Sequence Analyser
+- Built a Streamlit app in Python for DNA/RNA sequence analysis with GC content, codon usage, and ORF detection.
+- 🔗 https://pawnchessmon-dna-rna-sequence-analyzer-app-coddgo.streamlit.app
+### CSV Interpolation Web App
+- Developed a Streamlit app to interpolate missing values in datasets by averaging neighboring values.
+- 🔗 https://pawnchessmon-csv-interpolation-app.streamlit.app
+
+
 
 ## 🎓 Education
 
@@ -69,17 +78,18 @@ I’m passionate about inclusive, interdisciplinary science and thrive in collab
 *Cotton University, India (2018–2021)* – *83.36%*  
 - Focus: molecular biology, biochemistry, genetics, immunology
 
----
+
 
 ## 🛠 Certifications
 
+- Analysing Genomic Data in R – *DataCamp, 09/2025*  
 - Introduction to TensorFlow in Python – *DataCamp, 06/2025*  
 - Deep Learning with PyTorch – *DataCamp, 06/2025*  
 - Unsupervised Learning (Python & R) – *DataCamp, 05/2025*  
 - Understanding Machine Learning – *DataCamp, 05/2025*  
 - Introduction to the Tidyverse – *DataCamp, 10/2024*
 
----
+
 
 ## 📄 Publication
 
@@ -88,13 +98,13 @@ Colin Wood et al. including *Ritupam Sarma*,
 **AACR Annual Meeting 2025**, Abstract #4586  
 🔗 [DOI] https://doi.org/10.1158/1538-7445.AM2025-4586
 
----
+
 
 ## 🌐 Values & Inclusion
 
 As an **LGBT+ and Indian** scientist, I value diversity, global equity in research, and accessibility in bioinformatics. I advocate for open science and inclusive collaboration across disciplines.
 
----
+
 
 ## 📁 Featured Repositories (coming soon)
 
@@ -102,6 +112,6 @@ As an **LGBT+ and Indian** scientist, I value diversity, global equity in resear
 - `visium-CRC-lung` – Spatial transcriptomics analysis pipeline for colorectal cancer and lung metastasis samples  
 - `plasmodium-multigene-analysis` – Network-based gene family clustering in *Plasmodium falciparum*  
 
----
+
 
 *Let’s collaborate on data-driven biology, machine learning for genomics, and translational bioinformatics!* 🚀
