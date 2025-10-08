@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritupam Sarma - Interactive CV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* slate-50 */
+        }
+        @media print {
+            body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+            .no-print { display: none; }
+            .print-section { display: block !important; }
+            .accordion-content { max-height: none !important; }
+            .accordion-icon { display: none; }
+        }
+        .section-title {
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1e293b;
+        }
+        .icon {
+            width: 1rem; height: 1rem; stroke-width: 2;
+            margin-right: 0.5rem; flex-shrink: 0;
+        }
+        .tag {
+            display: inline-block;
+            background-color: #e0e7ff; /* indigo-100 */
+            color: #3730a3; /* indigo-800 */
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            margin: 0.25rem;
+            transition: all 0.2s ease;
+        }
+        .accordion-button {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 1rem;
+            background-color: #f1f5f9; /* slate-100 */
+            border-radius: 0.5rem;
+            transition: background-color 0.2s ease;
+        }
+        .accordion-button:hover { background-color: #e2e8f0; /* slate-200 */ }
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-out;
+            background-color: white;
+            border-radius: 0 0 0.5rem 0.5rem;
+        }
+        .accordion-icon { transition: transform 0.4s ease; }
+        .open .accordion-icon { transform: rotate(180deg); }
+        .open .accordion-content {
+            max-height: 2000px; /* Adjust as needed */
+            transition: max-height 0.5s ease-in;
+        }
+    </style>
+</head>
+<body class="p-4 sm:p-8">
+    <div class="max-w-5xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+        <main class="p-8 md:p-12">
+            <!-- Header Section -->
+            <header class="text-center mb-10">
+                <h1 class="text-4xl md:text-5xl font-bold text-slate-800 tracking-tight">RITUPAM SARMA</h1>
+                <p class="text-lg md:text-xl text-slate-600 mt-2">Bioinformatician & Demonstrator | University of Glasgow</p>
+                <div class="flex justify-center items-center flex-wrap gap-x-6 gap-y-2 mt-4 text-sm text-slate-500">
+                    <a href="mailto:ritupam.sarma@gmail.com" class="flex items-center hover:text-blue-600"><i data-lucide="mail" class="icon"></i> ritupam.sarma@gmail.com</a>
+                    <a href="https://www.linkedin.com/in/ritupam-sarma-44189b277/" target="_blank" rel="noopener noreferrer" class="flex items-center hover:text-blue-600"><i data-lucide="linkedin" class="icon"></i> LinkedIn</a>
+                    <a href="https://github.com/PawnChessmon" target="_blank" rel="noopener noreferrer" class="flex items-center hover:text-blue-600"><i data-lucide="github" class="icon"></i> GitHub</a>
+                    <a href="https://orcid.org/0009-0002-1443-0602" target="_blank" rel="noopener noreferrer" class="flex items-center hover:text-blue-600"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.126 18.248c.328 0 .597-.267.597-.596V7.124c0-.328-.269-.596-.597-.596s-.596.268-.596.596v10.528c0 .329.268.596.596.596zm4.272-7.203c-1.334 0-2.28.69-2.28 2.457v5.24c0 .328-.268.596-.596.596s-.596-.268-.596-.596v-5.24c0-2.336 1.432-3.233 3.14-3.233 1.156 0 1.83.433 2.223 1.17l.21.372c.12.204.384.288.588.168.204-.12.288-.384.168-.588l-.21-.372C16.12 8.78 14.882 7.92 13.06 7.92c-2.4 0-4.007 1.488-4.007 4.153v5.58c0 .328-.268.596-.596.596s-.596-.268-.596-.596v-5.58c0-2.088 1.104-3.377 3.12-3.377 1.056 0 2.232.552 2.232 2.857v6.098c0 .328-.268.596-.596.596s-.596-.268-.596-.596V13.5c0-1.428-.552-2.457-2.112-2.457z"/></svg>ORCiD</a>
+                </div>
+            </header>
+
+            <!-- Profile Section -->
+            <section class="mb-8">
+                <h2 class="section-title">Profile</h2>
+                <p class="text-slate-700 leading-relaxed">
+                    Dynamic Bioinformatician and Demonstrator at the University of Glasgow with broad expertise spanning cancer biology, infection biology, and computational genomics. Proficient in analyzing complex multi-omic datasets, including spatial transcriptomics, from cancer models and protozoan parasites like <em>Plasmodium</em> and <em>Leishmania</em>. Adept at developing and applying advanced computational workflows in R, Python, and UNIX/Linux for NGS data processing, variant analysis, and network mapping. Passionate about translating complex biological questions into robust computational strategies, with strong interdisciplinary training and a proven ability to collaborate effectively in international research settings.
+                </p>
+            </section>
+            
+            <!-- Skills Section -->
+            <section class="mb-8">
+                <h2 class="section-title">Core Competencies</h2>
+                <div class="flex flex-wrap -m-1">
+                    <span class="tag">Genomics</span> <span class="tag">Transcriptomics</span> <span class="tag">Metabolomics</span>
+                    <span class="tag">Multi-Omics Integration</span> <span class="tag">Cancer Biology</span> <span class="tag">Infection Biology</span>
+                    <span class="tag">Parasitology</span> <span class="tag">Spatial Transcriptomics</span> <span class="tag">scRNA-seq</span>
+                    <span class="tag">NGS Data Analysis</span> <span class="tag">Computational Biology</span> <span class="tag">Statistical Analysis</span>
+                    <span class="tag">R (Seurat, DESeq2)</span> <span class="tag">Python</span> <span class="tag">UNIX/Linux</span>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="mb-8 print-section">
+                <h2 class="section-title">Research & Project Experience</h2>
+                <div class="space-y-4">
+                    <!-- Accordion Item 1: Cancer Biology -->
+                    <div class="accordion-item">
+                        <button class="accordion-button">
+                            <span class="font-semibold text-lg text-slate-800">Cancer Biology & Spatial Transcriptomics</span>
+                            <i data-lucide="chevron-down" class="accordion-icon"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="p-6 border-l border-r border-b rounded-b-lg border-slate-200">
+                                <h4 class="font-bold text-slate-700 mb-2">Chronic Stress Effects on Lung Cancer</h4>
+                                <p class="text-sm text-slate-600 mb-2">Collaborative project (CRUK, UofG, Medical University of Vienna) using 10x Visium to investigate spatial gene expression changes in lung cancer models under chronic stress.</p>
+                                <div class="mt-4"><span class="tag">International Collaboration</span> <span class="tag">Scientific Communication</span> <span class="tag">10x Visium</span></div>
+                                
+                                <h4 class="font-bold text-slate-700 mt-6 mb-2">Colorectal Cancer Liver Metastasis (CRLM)</h4>
+                                <p class="text-sm text-slate-600 mb-2">Developed an end-to-end bioinformatics pipeline for multi-scale, multi-omic assessment of CRLM using spatial transcriptomics. Analysis identified region-specific insights and nominated <strong>MET</strong> and <strong>IL17</strong> as potential therapeutic targets.</p>
+                                <div class="mt-4"><span class="tag">Spatial Transcriptomics</span> <span class="tag">10x Visium</span> <span class="tag">Seurat</span> <span class="tag">Drug Target ID</span> <span class="tag">Computational Biology</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Accordion Item 2: Infection Biology -->
+                    <div class="accordion-item">
+                        <button class="accordion-button">
+                             <span class="font-semibold text-lg text-slate-800">Infection Biology & Parasite Genomics</span>
+                             <i data-lucide="chevron-down" class="accordion-icon"></i>
+                        </button>
+                        <div class="accordion-content">
+                             <div class="p-6 border-l border-r border-b rounded-b-lg border-slate-200">
+                                <h4 class="font-bold text-slate-700 mb-2">MSc Project: <em>Plasmodium falciparum</em> Gene Families</h4>
+                                <p class="text-sm text-slate-600 mb-2">Investigated the role of variant surface antigens (VSAs), specifically <em>rifin</em> and <em>stevor</em> superfamilies, in malaria pathogenesis. Employed network mapping and integrated expression data across life cycle stages to delineate novel gene sub-groups. Discovered new patterns of co-expression, suggesting specific roles in immune evasion.</p>
+                                <div class="mt-2 mb-4"><span class="tag">Network Analysis</span> <span class="tag">Gephi</span> <span class="tag">BLASTn</span> <span class="tag">Gene Expression</span> <span class="tag">Immune Evasion</span></div>
+
+                                <h4 class="font-bold text-slate-700 mb-2">Amphotericin B Resistance in <em>Leishmania</em></h4>
+                                <p class="text-sm text-slate-600 mb-2">Applied a multi-omic approach (WGS, metabolomics, protein modelling) to investigate drug resistance mechanisms. Analyzed Cyp51 mutations affecting ergosterol synthesis, identifying specific mutations and metabolic shifts contributing directly to resistance.</p>
+                                <div class="mt-2"><span class="tag">Multi-Omics</span> <span class="tag">WGS</span> <span class="tag">Metabolomics</span> <span class="tag">Drug Resistance</span> <span class="tag">SnpEff</span></div>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- Accordion Item 3: Computational -->
+                    <div class="accordion-item">
+                        <button class="accordion-button">
+                             <span class="font-semibold text-lg text-slate-800">Computational & Web-Based Tools</span>
+                             <i data-lucide="chevron-down" class="accordion-icon"></i>
+                        </button>
+                        <div class="accordion-content">
+                             <div class="p-6 border-l border-r border-b rounded-b-lg border-slate-200">
+                                <p class="text-sm text-slate-600">Developed and deployed web applications for bioinformatics data analysis, demonstrating proficiency in translating computational workflows into user-friendly tools.</p>
+                                <ul class="list-disc list-inside mt-2 text-slate-700 text-sm space-y-1">
+                                    <li><a href="#" class="text-blue-600 hover:underline">DNA/RNA Sequence Analyser App</a></li>
+                                    <li><a href="#" class="text-blue-600 hover:underline">CSV Interpolation Web App</a></li>
+                                </ul>
+                                <div class="mt-4"><span class="tag">Web Development</span> <span class="tag">Python</span> <span class="tag">Data Analysis</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Experience and Education Section -->
+            <section class="mb-8 print-section">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h2 class="section-title">Work Experience</h2>
+                        <div class="space-y-4">
+                            <div>
+                                <h3 class="font-semibold text-slate-800">Demonstrator</h3>
+                                <p class="text-sm text-slate-500">University of Glasgow, UK | 09/2024 - Present</p>
+                                <p class="text-sm mt-1 text-slate-600">Guided 100+ MSc students in Omics & R, Statistics, Command Line Genomics, and RNA-seq.</p>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-slate-800">Demonstrator</h3>
+                                <p class="text-sm text-slate-500">BSI Bioinformatics course | 12/2024 - Present</p>
+                                <p class="text-sm mt-1 text-slate-600">Led training in basic R and advanced scRNA-seq workflows using Seurat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="section-title">Education</h2>
+                        <div class="space-y-4">
+                             <div>
+                                <h3 class="font-semibold text-slate-800">MSc Bioinformatics (Merit)</h3>
+                                <p class="text-sm text-slate-500">University of Glasgow, UK | 2022 - 2023</p>
+                            </div>
+                            <div>
+                               <h3 class="font-semibold text-slate-800">BSc Zoology (83.36%)</h3>
+                                <p class="text-sm text-slate-500">Cotton University, INDIA | 2018 - 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        lucide.createIcons();
+
+        document.querySelectorAll('.accordion-button').forEach(button => {
+            button.addEventListener('click', () => {
+                const accordionItem = button.parentElement;
+                
+                // Toggle the 'open' class on the item
+                accordionItem.classList.toggle('open');
+            });
+        });
+    </script>
+</body>
+</html>
+
