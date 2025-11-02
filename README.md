@@ -1,6 +1,6 @@
-# Ritupam Sarma  
-**Bioinformatician & Graduate Teaching Assistant | University of Glasgow**  
-📧 ritupam.sarma@icloud.com  
+# Ritupam Sarma 
+📧 ritupam.sarma@icloud.com | ritupam.sarma@gmail.com
+Web CV: https://pawnchessmon.github.io/Introduction/
 🔗 [LinkedIn](https://www.linkedin.com/in/ritupam-sarma-44189b277)  
 
 
@@ -46,7 +46,7 @@ I’m passionate about inclusive, interdisciplinary science and thrive in collab
 
 
 
-## 🚧 Ongoing Projects
+## 🚧 Previous Projects
 
 ### 🔬 Spatial Transcriptomics in Colorectal & Lung Cancer  
 - Using 10x Visium and Seurat to study tumour microenvironments and metastatic stress responses  
@@ -99,18 +99,6 @@ Colin Wood et al. including *Ritupam Sarma*,
 🔗 [DOI] https://doi.org/10.1158/1538-7445.AM2025-4586
 
 
-
-## 🌐 Values & Inclusion
-
-As an **LGBT+ and Indian** scientist, I value diversity, global equity in research, and accessibility in bioinformatics. I advocate for open science and inclusive collaboration across disciplines.
-
-
-
-## 📁 Featured Repositories (coming soon)
-
-- `ena-submission-cli` – Command-line tool for ENA submissions with built-in validation and QC  
-- `visium-CRC-lung` – Spatial transcriptomics analysis pipeline for colorectal cancer and lung metastasis samples  
-- `plasmodium-multigene-analysis` – Network-based gene family clustering in *Plasmodium falciparum*  
 
 
 
