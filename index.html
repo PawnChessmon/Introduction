@@ -180,30 +180,216 @@
 
                 <!-- Accordion Item 1: Cancer Biology -->
                 <div class="accordion-item">
-                    <button class="accordion-button">
-                        <span class="font-semibold text-lg text-slate-800">Research | Cancer Biology & Spatial Transcriptomics</span>
-          _class="accordion-icon"></i>
-                    </button>
-                    <div class="accordion-content">
-                        <div class="p-6 border-l border-r border-b rounded-b-lg border-slate-200">
-                            <h4 class="font-bold text-slate-700 mb-2">Chronic Stress Effects on Lung Cancer</h4>
-Data-Source="https://pawnchessmon.github.io/Introduction/Lung_Cancer_Visium_Analysis.pdf"
-                            <p class="text-sm text-slate-600 mb-2">Collaborative project (CRUK, University of Glasgow, Medical University of Vienna) using 10x Visium to investigate spatial gene expression changes in lung cancer models under chronic stress, focusing on biomarker discovery.</p>
-                          	
-                                                        <p class="text-sm mt-3">
-  A-Target="https://pawnchessmon.github.io/Introduction/Lung_Cancer_Visium_Analysis.pdf"
-                              <a href="https://pawnchessmon.github.io/Introduction/Lung_Cancer_Visium_Analysis.pdf" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">
-                                View Project Presentation (PDF)
-                              </a>
-                            </p>
-                                                        <div class="mt-4"><span class="tag">International Collaboration</span> <span class="tag">Scientific Communication</span> <span class="tag">10x Visium</span></div>
-                            
-                            <h4 class="font-bold text-slate-700 mt-6 mb-2">Colorectal Cancer Liver Metastasis (CRLM)</h4>
-                            <p class="text-sm text-slate-600 mb-2">Developed an end-to-end bioinformatics pipeline for multi-scale, multi-omic assessment of CRLM using spatial transcriptomics. Analysis identified region-specific insights and nominated <strong><em>MET</em></strong> and <strong><em>IL17</em></strong> as potential therapeutic targets.</p>
-                            <div class="mt-4"><span class="tag">Spatial Transcriptomics</span> <span class="tag">10x Visium</span> <span class="tag">Seurat</span> <span class="tag">Drug Target ID</span> <span class="tag">Computational Biology</span></div>
-                        </div>
-                    </div>
-        _class="accordion-item">
+                    <button class="accordion-button">
+                        <span class="font-semibold text-lg text-slate-800">Research | Cancer Biology & Spatial Transcriptomics</span>
+                        <i data-lucide="chevron-down" class="accordion-icon"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="p-6 border-l border-r border-b rounded-b-lg border-slate-200">
+                            
+                            <!-- Project 1: Lung Cancer -->
+                            <div class="mb-8">
+                                <div class="flex items-start justify-between mb-2">
+                                    <h4 class="font-bold text-slate-700">Chronic Stress Effects on Lung Cancer</h4>
+                                    <a href="https://pawnchessmon.github.io/Introduction/Lung_Cancer_Visium_Analysis.pdf" 
+                                       target="_blank" 
+                                       rel="noopener noreferrer"
+                                       class="btn btn--sm btn--primary flex items-center gap-2">
+                                        <i data-lucide="presentation" class="w-4 h-4"></i>
+                                        View Presentation
+                                    </a>
+                                </div>
+                                <p class="text-sm text-slate-600 mb-3">Collaborative project (CRUK, University of Glasgow, Medical University of Vienna) using 10x Visium to investigate spatial gene expression changes in lung cancer models under chronic stress, focusing on biomarker discovery.</p>
+                                <div class="mb-4"><span class="tag">International Collaboration</span> <span class="tag">Scientific Communication</span> <span class="tag">10x Visium</span></div>
+                                
+                                <!-- Sub-accordion for Project 1 -->
+                                <div class="ml-4 border-l-2 border-teal-200 pl-4">
+                                    
+                                    <!-- Background -->
+                                    <div class="sub-accordion-item mb-3">
+                                        <button class="sub-accordion-button">
+                                            <span class="font-semibold text-sm text-slate-700">Background & Research Question</span>
+                                            <i data-lucide="chevron-right" class="sub-accordion-icon"></i>
+                                        </button>
+                                        <div class="sub-accordion-content">
+                                            <p class="text-sm text-slate-600 mt-2">Chronic stress has been linked to cancer progression, but its impact on the tumor microenvironment (TME) at a spatial level remains unclear. This project aims to determine how stress influences spatial gene expression in lung cancer and whether these effects differ between tumor and non-tumor regions.</p>
+                                            <p class="text-sm text-slate-600 mt-2"><strong>Institutions:</strong> University of Glasgow, CRUK Scotland Institute, Medical University of Vienna</p>
+                                            <p class="text-sm text-slate-600 mt-1"><strong>Key Contributors:</strong> Dr. Chrysoula Vraka (CRUK Scotland Institute & Medical University of Vienna), Mr. John Cole (University of Glasgow)</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Methods -->
+                                    <div class="sub-accordion-item mb-3">
+                                        <button class="sub-accordion-button">
+                                            <span class="font-semibold text-sm text-slate-700">Methods & Approach</span>
+                                            <i data-lucide="chevron-right" class="sub-accordion-icon"></i>
+                                        </button>
+                                        <div class="sub-accordion-content">
+                                            <ul class="text-sm text-slate-600 mt-2 space-y-1 list-disc list-inside">
+                                                <li><strong>Cohort:</strong> 19 lung cancer samples (9 high-stress, 10 low-stress), stress quantified via questionnaires and glucocorticoid levels</li>
+                                                <li><strong>Technology:</strong> 10x Genomics Visium spatial transcriptomics with tumor and non-tumor regions annotated by pathology</li>
+                                                <li><strong>Analysis Pipeline:</strong> Seurat workflow including QC (filtering low-quality spots), normalization, scaling, PCA/UMAP, clustering, differential expression, marker gene identification, and spatial visualization</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- My Contributions -->
+                                    <div class="sub-accordion-item mb-3">
+                                        <button class="sub-accordion-button">
+                                            <span class="font-semibold text-sm text-slate-700">My Specific Contributions</span>
+                                            <i data-lucide="chevron-right" class="sub-accordion-icon"></i>
+                                        </button>
+                                        <div class="sub-accordion-content">
+                                            <ul class="text-sm text-slate-600 mt-2 space-y-1 list-disc list-inside">
+                                                <li>Built and executed the Seurat analysis pipeline from QC to clustering and visualization</li>
+                                                <li>Conducted differential expression analysis to compare high- vs. low-stress groups</li>
+                                                <li>Performed cluster marker identification and interpretation of top 10 genes per cluster</li>
+                                                <li>Collaborated with supervisors to plan next steps, including validation and multi-omic integration</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Results -->
+                                    <div class="sub-accordion-item mb-3">
+                                        <button class="sub-accordion-button">
+                                            <span class="font-semibold text-sm text-slate-700">Results & Findings</span>
+                                            <i data-lucide="chevron-right" class="sub-accordion-icon"></i>
+                                        </button>
+                                        <div class="sub-accordion-content">
+                                            <ul class="text-sm text-slate-600 mt-2 space-y-1 list-disc list-inside">
+                                                <li>High- vs. low-stress groups showed distinct expression differences, with low-stress samples generally having higher gene expression</li>
+                                                <li>Median detected genes per spot: 400–5,500; average reads per spot: ~25,000</li>
+                                                <li>Identified clear spatial clustering across tumor and non-tumor regions</li>
+                                                <li>Top marker genes successfully characterized spatial domains of the tissue</li>
+                                            </ul>
+                                            <p class="text-sm text-slate-600 mt-2"><strong>Interpretation:</strong> Chronic stress significantly influences spatial gene expression patterns in lung cancer. Stress-related effects are evident in both tumor and non-tumor regions, suggesting a broader impact on TME interactions.</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Tools -->
+                                    <div class="sub-accordion-item">
+                                        <button class="sub-accordion-button">
+                                            <span class="font-semibold text-sm text-slate-700">Tools & Technologies</span>
+                                            <i data-lucide="chevron-right" class="sub-accordion-icon"></i>
+                                        </button>
+                                        <div class="sub-accordion-content">
+                                            <div class="mt-2">
+                                                <span class="tag">10x Genomics Visium</span>
+                                                <span class="tag">R (Seurat)</span>
+                                                <span class="tag">Loupe Browser</span>
+                                                <span class="tag">PCA/UMAP</span>
+                                                <span class="tag">Differential Expression</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            
+                            <!-- Project 2: Colorectal Cancer -->
+                            <div class="pt-6 border-t border-slate-200">
+                                <div class="flex items-start justify-between mb-2">
+                                    <h4 class="font-bold text-slate-700">Colorectal Cancer Liver Metastasis (CRLM)</h4>
+                                    <a href="https://doi.org/10.1158/1538-7445.AM2025-4586" 
+                                       target="_blank" 
+                                       rel="noopener noreferrer"
+                                       class="btn btn--sm btn--outline flex items-center gap-2">
+                                        <i data-lucide="external-link" class="w-4 h-4"></i>
+                                        AACR Abstract
+                                    </a>
+                                </div>
+                                <p class="text-sm text-slate-600 mb-3">Developed an end-to-end bioinformatics pipeline for multi-scale, multi-omic assessment of CRLM using spatial transcriptomics. Analysis identified region-specific insights and nominated <strong><em>MET</em></strong> and <strong><em>IL17</em></strong> as potential therapeutic targets.</p>
+                                <div class="mb-4"><span class="tag">Spatial Transcriptomics</span> <span class="tag">10x Visium</span> <span class="tag">Seurat</span> <span class="tag">Drug Target ID</span> <span class="tag">Computational Biology</span></div>
+                                
+                                <!-- Sub-accordion for Project 2 -->
+                                <div class="ml-4 border-l-2 border-teal-200 pl-4">
+                                    
+                                    <!-- Background -->
+                                    <div class="sub-accordion-item mb-3">
+                                        <button class="sub-accordion-button">
+                                            <span class="font-semibold text-sm text-slate-700">Background & Research Question</span>
+                                            <i data-lucide="chevron-right" class="sub-accordion-icon"></i>
+                                        </button>
+                                        <div class="sub-accordion-content">
+                                            <p class="text-sm text-slate-600 mt-2">Colorectal cancer (CRC) often metastasizes to the liver. The tumor microenvironment (TME) and spatial heterogeneity within the metastases are poorly understood. This project aimed at characterizing spatial gene expression patterns in CRLM to discover region-specific drivers and therapeutic targets.</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Methods -->
+                                    <div class="sub-accordion-item mb-3">
+                                        <button class="sub-accordion-button">
+                                            <span class="font-semibold text-sm text-slate-700">Methods & Approach</span>
+                                            <i data-lucide="chevron-right" class="sub-accordion-icon"></i>
+                                        </button>
+                                        <div class="sub-accordion-content">
+                                            <p class="text-sm text-slate-600 mt-2"><strong>Cohort:</strong> 41 patients (29 untreated) underwent synchronous CRC and CRLM resection (2002–2010)</p>
+                                            <ul class="text-sm text-slate-600 mt-2 space-y-2 list-disc list-inside">
+                                                <li><strong>CosMx SMI (Nanostring):</strong> Paired CRC & CRLM from 4 patients; single-cell ST, 23 fields of view (FOV)</li>
+                                                <li><strong>GeoMx DSP (Nanostring):</strong> Paired CRC & CRLM from 4 patients; regional profiling across PanCK+, PanCK-, aSMA+ compartments, 116 FOV</li>
+                                                <li><strong>10x Genomics Visium:</strong> Paired CRC & CRLM from 2 patients; regional ST, 4 FOV</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- My Contributions -->
+                                    <div class="sub-accordion-item mb-3">
+                                        <button class="sub-accordion-button">
+                                            <span class="font-semibold text-sm text-slate-700">My Specific Contributions</span>
+                                            <i data-lucide="chevron-right" class="sub-accordion-icon"></i>
+                                        </button>
+                                        <div class="sub-accordion-content">
+                                            <ul class="text-sm text-slate-600 mt-2 space-y-1 list-disc list-inside">
+                                                <li>Focused on <strong>10x Visium analysis</strong>, built an <strong>end-to-end bioinformatic pipeline</strong> (QC, alignment, clustering, differential expression, visualization)</li>
+                                                <li>Integrated CRC vs. CRLM samples with <strong>Seurat (R)</strong> to explore region-specific patterns</li>
+                                                <li>Performed pathway enrichment and visualization (heatmaps, volcano plots, SpatialFeaturePlots)</li>
+                                                <li>Collaborated closely with clinicians and wet-lab scientists to validate findings</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Results -->
+                                    <div class="sub-accordion-item mb-3">
+                                        <button class="sub-accordion-button">
+                                            <span class="font-semibold text-sm text-slate-700">Results & Findings</span>
+                                            <i data-lucide="chevron-right" class="sub-accordion-icon"></i>
+                                        </button>
+                                        <div class="sub-accordion-content">
+                                            <ul class="text-sm text-slate-600 mt-2 space-y-1 list-disc list-inside">
+                                                <li>Applied SingleR for cell-type annotation of clusters, with clinical validation confirming accuracy and translational relevance</li>
+                                                <li>Identified distinct <strong>spatial expression signatures</strong> between primary CRC and liver metastases</li>
+                                                <li>Found enrichment of <strong><em>MET</em></strong> and <strong><em>IL17</em> pathways</strong> in CRLM, highlighting potential druggable targets</li>
+                                                <li>Results formed part of an <strong>AACR 2025 abstract</strong> and manuscript in preparation</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Tools -->
+                                    <div class="sub-accordion-item">
+                                        <button class="sub-accordion-button">
+                                            <span class="font-semibold text-sm text-slate-700">Tools & Technologies</span>
+                                            <i data-lucide="chevron-right" class="sub-accordion-icon"></i>
+                                        </button>
+                                        <div class="sub-accordion-content">
+                                            <div class="mt-2">
+                                                <span class="tag">R (Seurat)</span>
+                                                <span class="tag">DESeq2</span>
+                                                <span class="tag">clusterProfiler</span>
+                                                <span class="tag">ggplot2</span>
+                                                <span class="tag">IGV</span>
+                                                <span class="tag">SingleR</span>
+                                                <span class="tag">CosMx SMI</span>
+                                                <span class="tag">GeoMx DSP</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Accordion Item 2: Infection Biology -->
                 <div class="accordion-item">
                     <button class="accordion-button">
