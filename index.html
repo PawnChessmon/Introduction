@@ -67,6 +67,41 @@
             max-height: 2000px; /* Adjust as needed */
             transition: max-height 0.5s ease-in;
         }
+        .sub-accordion-item {
+    margin-bottom: 0.75rem;
+        }
+
+        .sub-accordion-button {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 0.5rem 0.75rem;
+            background-color: var(--color-secondary);
+            border: none;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+            transition: background-color var(--duration-fast) var(--ease-standard);
+        }
+
+        .sub-accordion-button:hover {
+            background-color: var(--color-secondary-hover);
+        }
+
+        .sub-accordion-icon {
+            width: 16px;
+            height: 16px;
+            transition: transform var(--duration-normal) var(--ease-standard);
+            color: var(--color-text-secondary);
+        }
+
+        .sub-accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height var(--duration-normal) var(--ease-standard);
+            padding: 0 0.75rem;
+        }
+
     </style>
 </head>
 <body class="p-4 sm:p-8">
@@ -528,6 +563,28 @@
                 accordionItem.classList.toggle('open');
             });
         });
+
+        // Sub-accordion functionality
+document.querySelectorAll('.sub-accordion-button').forEach(button => {
+    button.addEventListener('click', function(e) {
+        e.stopPropagation(); // Prevent parent accordion from toggling
+        
+        const content = this.nextElementSibling;
+        const icon = this.querySelector('.sub-accordion-icon');
+        const isOpen = content.style.maxHeight;
+        
+        // Toggle current sub-accordion
+        if (isOpen) {
+            content.style.maxHeight = null;
+            icon.style.transform = 'rotate(0deg)';
+        } else {
+            content.style.maxHeight = content.scrollHeight + 'px';
+            icon.style.transform = 'rotate(90deg)';
+        }
+    });
+});
+
+
     </script>
 </body>
 </html>
