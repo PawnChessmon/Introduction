@@ -426,24 +426,216 @@
                 </div>
 
                 <!-- Accordion Item 2: Infection Biology -->
-                <div class="accordion-item">
-                    <button class="accordion-button">
-                         <span class="font-semibold text-lg text-slate-800">Research | Infection Biology & Parasite Genomics</span>
-                         <i data-lucide="chevron-down" class="accordion-icon"></i>
-                    </button>
-                    <div class="accordion-content">
-                         <div class="p-6 border-l border-r border-b rounded-b-lg border-slate-200">
-                            <h4 class="font-bold text-slate-700 mb-2">MSc Project: <em>Plasmodium falciparum</em> Gene Families</h4>
-                            <p class="text-sm text-slate-600 mb-2">Investigated the role of variant surface antigens (VSAs), specifically <em>rifin</em> and <em>stevor</em> superfamilies, in malaria pathogenesis. Employed network mapping and integrated expression data across life cycle stages to delineate novel gene sub-groups. Discovered new patterns of co-expression, suggesting specific roles in immune evasion and deepening understanding of host-parasite interactions.</p>
-                            <div class="mt-2 mb-4"><span class="tag">Network Analysis</span> <span class="tag">Gephi</span> <span class="tag">BLASTn</span> <span class="tag">Gene Expression</span> <span class="tag">Immune Evasion</span></div>
-
-                            <h4 class="font-bold text-slate-700 mb-2">Amphotericin B Resistance in <em>Leishmania</em></h4>
-                            <p class="text-sm text-slate-600 mb-2">Applied a multi-omic approach (WGS, metabolomics, protein modelling) to investigate drug resistance mechanisms. Analyzed <em>Cyp51</em> mutations affecting ergosterol synthesis, identifying specific mutations and metabolic shifts contributing directly to resistance.</p>
-                            <div class="mt-2"><span class="tag">Multi-Omics</span> <span class="tag">WGS</span> <span class="tag">Metabolomics</span> <span class="tag">Drug Resistance</span> <span class="tag">SnpEff</span></div>
+<div class="accordion-item">
+    <button class="accordion-button">
+        <span class="font-semibold text-lg text-slate-800">Research | Infection Biology & Parasite Genomics</span>
+        <i data-lucide="chevron-down" class="accordion-icon"></i>
+    </button>
+    <div class="accordion-content">
+        <div class="p-6 border-l border-r border-b rounded-b-lg border-slate-200">
+            
+            <!-- Project 1: Plasmodium falciparum -->
+            <div class="mb-8">
+                <div class="flex items-start justify-between mb-2">
+                    <h4 class="font-bold text-slate-700">MSc Project: <em>Plasmodium falciparum</em> Gene Families</h4>
+                </div>
+                <p class="text-sm text-slate-600 mb-3">Investigated the role of variant surface antigens (VSAs), specifically <em>rifin</em> and <em>stevor</em> superfamilies, in malaria pathogenesis. Employed network mapping and integrated expression data across life cycle stages to delineate novel gene sub-groups. Discovered new patterns of co-expression, suggesting specific roles in immune evasion and deepening understanding of host-parasite interactions.</p>
+                <div class="mb-4"><span class="tag">Network Analysis</span> <span class="tag">Gephi</span> <span class="tag">BLASTn</span> <span class="tag">Gene Expression</span> <span class="tag">Immune Evasion</span></div>
+                
+                <!-- Sub-accordion for Project 1 -->
+                <div class="ml-4 border-l-2 border-teal-200 pl-4">
+                    
+                    <!-- Background -->
+                    <div class="sub-accordion-item mb-3">
+                        <button class="sub-accordion-button">
+                            <span class="font-semibold text-sm text-slate-700">Background & Research Question</span>
+                            <i data-lucide="chevron-right" class="sub-accordion-icon"></i>
+                        </button>
+                        <div class="sub-accordion-content">
+                            <p class="text-sm text-slate-600 mt-2">Variant surface antigens (VSAs) like rifin and stevor families in <em>Plasmodium falciparum</em> play key roles in malaria pathogenesis and immune evasion. This MSc project aimed to map sequence-similarity networks for these families to detect sub-groups and relate clusters to parasite life cycle stages and cell-line phenotypes.</p>
+                            <p class="text-sm text-slate-600 mt-2"><strong>Institutions:</strong> MSc Bioinformatics, University of Glasgow</p>
+                            <p class="text-sm text-slate-600 mt-1"><strong>Key Contributors:</strong> Project by Ritupam Sarma (GUID: 2734454s), supervised by Dr Virginia Howick, with contributions from Dr Priscilla Ngotho</p>
                         </div>
                     </div>
+                    
+                    <!-- Methods -->
+                    <div class="sub-accordion-item mb-3">
+                        <button class="sub-accordion-button">
+                            <span class="font-semibold text-sm text-slate-700">Methods & Approach</span>
+                            <i data-lucide="chevron-right" class="sub-accordion-icon"></i>
+                        </button>
+                        <div class="sub-accordion-content">
+                            <ul class="text-sm text-slate-600 mt-2 space-y-1 list-disc list-inside">
+                                <li><strong>Sequence Analysis:</strong> All-vs-all BLASTn on rifin and stevor FASTA sets to identify sequence similarities</li>
+                                <li><strong>Data Processing:</strong> Filtering and table integration using Python and R for network preparation</li>
+                                <li><strong>Network Construction:</strong> Exported networks in GEXF format; community detection via Gephi modularity (Louvain algorithm)</li>
+                                <li><strong>Visualization:</strong> Applied ForceAtlas2 and Fruchterman-Reingold layouts in Gephi for cluster representation</li>
+                                <li><strong>Integration:</strong> Related clusters to expression data across parasite life cycle stages</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- My Contributions -->
+                    <div class="sub-accordion-item mb-3">
+                        <button class="sub-accordion-button">
+                            <span class="font-semibold text-sm text-slate-700">My Specific Contributions</span>
+                            <i data-lucide="chevron-right" class="sub-accordion-icon"></i>
+                        </button>
+                        <div class="sub-accordion-content">
+                            <ul class="text-sm text-slate-600 mt-2 space-y-1 list-disc list-inside">
+                                <li>Led the entire MSc project, from data collection and BLASTn analysis to network construction and visualization</li>
+                                <li>Developed Python and R scripts for data filtering, integration, and initial cluster analysis</li>
+                                <li>Performed Gephi-based community detection and layout optimization to identify novel sub-groups</li>
+                                <li>Integrated expression data with networks to uncover co-expression patterns and their biological implications</li>
+                                <li>Collaborated with supervisors to interpret results and propose future functional studies</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Results -->
+                    <div class="sub-accordion-item mb-3">
+                        <button class="sub-accordion-button">
+                            <span class="font-semibold text-sm text-slate-700">Results & Findings</span>
+                            <i data-lucide="chevron-right" class="sub-accordion-icon"></i>
+                        </button>
+                        <div class="sub-accordion-content">
+                            <ul class="text-sm text-slate-600 mt-2 space-y-1 list-disc list-inside">
+                                <li><strong>Rifin Family:</strong> Identified four major and one minor clusters with clear separation of rifin A vs. rifin B subfamilies</li>
+                                <li><strong>Isolate Structure:</strong> Minimal isolate-driven clustering, with ring-stage sequences dominating the networks</li>
+                                <li><strong>Stevor Family:</strong> Revealed two major clusters, with unexpected isolate-specific grouping and limited correlation to life cycle stages</li>
+                                <li><strong>Clinical Insights:</strong> Majority of stevor sequences originated from acute clinical samples, suggesting stage-specific roles</li>
+                            </ul>
+                            <p class="text-sm text-slate-600 mt-2"><strong>Interpretation:</strong> The clear intra-family clustering indicates underlying functional sub-structures within rifin and stevor families, potentially linked to immune evasion strategies. These findings deepen understanding of host-parasite interactions in malaria pathogenesis.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Tools -->
+                    <div class="sub-accordion-item">
+                        <button class="sub-accordion-button">
+                            <span class="font-semibold text-sm text-slate-700">Tools & Technologies</span>
+                            <i data-lucide="chevron-right" class="sub-accordion-icon"></i>
+                        </button>
+                        <div class="sub-accordion-content">
+                            <div class="mt-2">
+                                <span class="tag">BLAST+ (BLASTn)</span>
+                                <span class="tag">Gephi</span>
+                                <span class="tag">Python (pandas, scikit-learn, networkx)</span>
+                                <span class="tag">R</span>
+                                <span class="tag">GEXF Networks</span>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
-                 <!-- Accordion Item 3: Computational -->
+            </div>
+            
+            <!-- Project 2: Leishmania Resistance -->
+            <div class="pt-6 border-t border-slate-200">
+                <div class="flex items-start justify-between mb-2">
+                    <h4 class="font-bold text-slate-700">Amphotericin B Resistance in <em>Leishmania</em></h4>
+                </div>
+                <p class="text-sm text-slate-600 mb-3">Applied a multi-omic approach (WGS, metabolomics, protein modelling) to investigate drug resistance mechanisms. Analyzed <em>Cyp51</em> mutations affecting ergosterol synthesis, identifying specific mutations and metabolic shifts contributing directly to resistance.</p>
+                <div class="mb-4"><span class="tag">Multi-Omics</span> <span class="tag">WGS</span> <span class="tag">Metabolomics</span> <span class="tag">Drug Resistance</span> <span class="tag">SnpEff</span></div>
+                
+                <!-- Sub-accordion for Project 2 -->
+                <div class="ml-4 border-l-2 border-teal-200 pl-4">
+                    
+                    <!-- Background -->
+                    <div class="sub-accordion-item mb-3">
+                        <button class="sub-accordion-button">
+                            <span class="font-semibold text-sm text-slate-700">Background & Research Question</span>
+                            <i data-lucide="chevron-right" class="sub-accordion-icon"></i>
+                        </button>
+                        <div class="sub-accordion-content">
+                            <p class="text-sm text-slate-600 mt-2">Amphotericin B is a frontline drug for leishmaniasis, but resistance in <em>Leishmania mexicana</em> compromises treatment efficacy. This project used a polyomics approach to identify genomic and metabolic determinants of resistance, focusing on CYP51's role in sterol biosynthesis and ergosterol pathway disruption.</p>
+                            <p class="text-sm text-slate-600 mt-2"><strong>Institutions:</strong> University of Glasgow (Glasgow Polyomics and HPCC resources)</p>
+                            <p class="text-sm text-slate-600 mt-1"><strong>Key Contributors:</strong> MSc Bioinformatics 2022-23 project (author ID: 2734454); datasets from Glasgow Polyomics; prior resistant lines from Mwenechanya et al. (2017)</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Methods -->
+                    <div class="sub-accordion-item mb-3">
+                        <button class="sub-accordion-button">
+                            <span class="font-semibold text-sm text-slate-700">Methods & Approach</span>
+                            <i data-lucide="chevron-right" class="sub-accordion-icon"></i>
+                        </button>
+                        <div class="sub-accordion-content">
+                            <ul class="text-sm text-slate-600 mt-2 space-y-2 list-disc list-inside">
+                                <li><strong>Genomics Pipeline:</strong> Whole-genome sequencing (WGS) analysis with FastQC, TrimGalore!, Bowtie2 alignment, Samtools, IGV visualization, VariantToolChest (VTC), SnpEff/SnpSift annotation, bamaddrg, FreeBayes variant calling, and vcffilter</li>
+                                <li><strong>Metabolomics:</strong> LC-MS data processing with PiMP for QC and MetaboAnalyst for PCA, volcano plots, and pathway analysis</li>
+                                <li><strong>Protein Modeling:</strong> BLAST homology search, SignalP 5.0 for signal peptides, SWISS-MODEL for structure prediction, visualization in PyMOL and UCSF ChimeraX</li>
+                                <li><strong>Structural Analysis:</strong> Ligand docking with SwissDock (obtusifoliol), molecular dynamics (MD) simulations with UNRES, and protein-protein interaction (PPI) docking with ClusPro</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- My Contributions -->
+                    <div class="sub-accordion-item mb-3">
+                        <button class="sub-accordion-button">
+                            <span class="font-semibold text-sm text-slate-700">My Specific Contributions</span>
+                            <i data-lucide="chevron-right" class="sub-accordion-icon"></i>
+                        </button>
+                        <div class="sub-accordion-content">
+                            <ul class="text-sm text-slate-600 mt-2 space-y-1 list-disc list-inside">
+                                <li>Designed and executed the multi-omics bioinformatics pipeline for WGS variant calling and annotation, identifying resistance-associated SNPs</li>
+                                <li>Processed LC-MS metabolomics data, performing QC, statistical analysis, and pathway enrichment to link metabolic shifts to resistance</li>
+                                <li>Conducted protein structure modeling and docking simulations for CYP51 variants, interpreting structural impacts on ergosterol synthesis</li>
+                                <li>Integrated genomic, metabolomic, and structural data to converge on CYP51 as a key resistance mediator</li>
+                                <li>Collaborated with the Glasgow Polyomics team to validate findings and propose therapeutic re-sensitization strategies</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Results -->
+                    <div class="sub-accordion-item mb-3">
+                        <button class="sub-accordion-button">
+                            <span class="font-semibold text-sm text-slate-700">Results & Findings</span>
+                            <i data-lucide="chevron-right" class="sub-accordion-icon"></i>
+                        </button>
+                        <div class="sub-accordion-content">
+                            <ul class="text-sm text-slate-600 mt-2 space-y-1 list-disc list-inside">
+                                <li><strong>Genomic Variants:</strong> Identified 127 non-synonymous variants between resistant and wild-type (WT) strains, with a key Asn176Ile substitution in CYP51</li>
+                                <li><strong>Metabolomics:</strong> PCA separated resistant vs. WT groups; sterol-linked metabolites showed significant fold-changes, indicating disrupted ergosterol synthesis</li>
+                                <li><strong>Structural Insights:</strong> Docking and MD simulations revealed altered CYP51 binding behavior; PPI analysis showed reduced interacting surface area</li>
+                                <li><strong>Pathway Impact:</strong> Convergent evidence of CYP51-mediated sterol pathway disruption as the primary resistance mechanism</li>
+                            </ul>
+                            <p class="text-sm text-slate-600 mt-2"><strong>Interpretation:</strong> The multi-omics integration highlights CYP51 mutations and downstream metabolic shifts as central to Amphotericin B resistance, providing targets for re-sensitization strategies to restore WT activity and improve drug efficacy.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Tools -->
+                    <div class="sub-accordion-item">
+                        <button class="sub-accordion-button">
+                            <span class="font-semibold text-sm text-slate-700">Tools & Technologies</span>
+                            <i data-lucide="chevron-right" class="sub-accordion-icon"></i>
+                        </button>
+                        <div class="sub-accordion-content">
+                            <div class="mt-2">
+                                <span class="tag">FastQC</span>
+                                <span class="tag">TrimGalore!</span>
+                                <span class="tag">Bowtie2</span>
+                                <span class="tag">Samtools</span>
+                                <span class="tag">IGV</span>
+                                <span class="tag">SnpEff/SnpSift</span>
+                                <span class="tag">FreeBayes</span>
+                                <span class="tag">MetaboAnalyst</span>
+                                <span class="tag">SWISS-MODEL</span>
+                                <span class="tag">PyMOL</span>
+                                <span class="tag">UCSF ChimeraX</span>
+                                <span class="tag">SwissDock</span>
+                                <span class="tag">ClusPro</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+                <!-- Accordion Item 3: Computational -->
                 <div class="accordion-item">
                     <button class="accordion-button">
                          <span class="font-semibold text-lg text-slate-800">Projects | Computational & Web-Based Tools</span>
