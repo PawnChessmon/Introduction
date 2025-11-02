@@ -55,7 +55,8 @@ I’m passionate about inclusive, interdisciplinary science and thrive in collab
 
 ### 📤 ENA Submission Automation  
 - Command-line tool for automated data upload to the European Nucleotide Archive (ENA)  
-- Features: metadata checks, email notifications, and QC logging  
+- Features: metadata checks, email notifications, and QC logging
+- [Link](https://pawnchessmon.github.io/Introduction/Lung_Cancer_Visium_Analysis.pdf)
 
 
 ## 🌍 Independent Projects (Web Apps)
