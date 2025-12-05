@@ -27,7 +27,51 @@ Learn more about my background, skills, and research on my [Online Portfolio](ht
 
 Feel free to explore my repositories for pipelines, analysis scripts, and projects related to cancer genomics, spatial transcriptomics, and infection biology.
 
----
+
+## How I Work
+
+```mermaid
+flowchart TD
+    Q[Biological question] --> D[Study design and data collection]
+
+    D --> T{Data type}
+    T --> R1[Bulk or scRNA-seq]
+    T --> R2[WGS or variant data]
+    T --> R3[Spatial transcriptomics]
+
+    %% RNA-seq branch
+    R1 --> QC1[QC and trimming]
+    QC1 --> ALN1[Alignment and quantification]
+    ALN1 --> DE[Differential expression analysis]
+    DE --> VIS1[Dimensionality reduction and plots]
+
+    %% WGS / variant branch
+    R2 --> QC2[QC and alignment]
+    QC2 --> VAR[Variant calling and annotation]
+    VAR --> VIS2[Variant summaries and burden plots]
+
+    %% Spatial branch
+    R3 --> QC3[Image and spot QC]
+    QC3 --> MAP[Map spots to tissue]
+    MAP --> VIS3[Spatial feature plots and region stats]
+
+    %% Integration & interpretation
+    VIS1 --> INT[Multi-omics integration and ML]
+    VIS2 --> INT
+    VIS3 --> INT
+
+    INT --> BIO[Biological interpretation]
+    BIO --> REP[Reports, figures and pipelines]
+```
+
+___
 
 📫 You can reach me at [ritupam.sarma@gmail.com](mailto:ritupam.sarma@gmail.com)  
 🔗 Connect on [LinkedIn](https://www.linkedin.com/in/ritupam-sarma-44189b277/) | GitHub: [@PawnChessmon](https://github.com/PawnChessmon)  
+
+
+
+
+
+
+
